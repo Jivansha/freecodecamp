@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(255, 234, 112);
+    vertical-align: middle;   
+}
+
+#container{
+    color: whitesmoke;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#header{ 
+    margin-top: -30px;
+    margin-bottom: -50px;
+    background-color: rgb(116, 6, 24);
+}
+
+h1{
+    font-size: 70px;
+    text-shadow: 0 5px 5px rgba(0,0,0,0.5);  
+}
+
+h4{
+    font-family: Tahoma;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.4);
+}
+
+#tribute-info{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+    padding: 10px;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.4);
+    background-color: rgba(78, 3, 28, 0.486);
+    text-align: justify;
+}
+
+#image{
+    height: 240px;
+    width: 170px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.3), 0 15px 15px rgba(0,0,0,0.3);    
+    align-items: center;
+}
+
+#img-div{    
+}
+
+#footer{
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    color:  rgba(78, 3, 28);
+    padding: 10px;
+    text-shadow: 0 2px 2px rgba(0,0,0,0.4);
+}
