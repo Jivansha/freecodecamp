@@ -1,0 +1,60 @@
+body{
+    background: #e6cee5;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+
+#title{
+    font-size: 40px;
+}
+
+.container{
+    background: #f8f3eb;
+    margin: 50px;
+}
+
+#description{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#two-col{
+    padding: 10px;
+}
+
+#name, #email, #number{
+    width: 250px;
+    height: 25px;
+    border: 1px solid #beb8af;
+    padding-left: 10px;
+    border-radius: 20px;
+}
+
+#dropdown{
+    width: 100px;
+    height: 25px;
+    border: 1px solid #beb8af;
+    border-radius: 20px;
+}
+
+#block{
+    margin-left: 35%;
+    text-align: start; 
+    list-style: none;
+}
+
+
+#submit{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    background: #5b759b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#submit:hover{
+    background: #768fb6;
+}

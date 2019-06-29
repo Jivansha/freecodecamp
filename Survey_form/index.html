@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Jivansha">
+    <title>Bakers&Co. | Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Survey Form</h1>
+    </header>
+    <div class="container">
+        <p id="description">Be a part of our mission to make food more delicious!</p>
+            <form id="survey-form">
+                <div id="two-col">
+                    <label id="name-label">Name * </label>
+                    <input id="name" type="text" required placeholder="Enter your name">
+                </div>
+                <div id="two-col">
+                    <label id="email-label">Email * </label>
+                    <input id="email" type="email" required placeholder="Enter your email" >
+                </div>
+                <div id="two-col">
+                    <label id="number-label">Age * </label>
+                    <input id="number" type="number" min="2" max="130" required placeholder="Enter your age" >
+                </div>
+                <div id="two-col">
+                    <label>How frequently do you visit us?</label>
+                    <select id="dropdown" name="visit_us">
+                        <option value="daily">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="other">Others</option>
+                    </select>
+                </div>
+                <div id="two-col">
+                    <label id="leftlabel">How likely is that you would recommend Bakers&Co. to a friend?</label>
+                    <br><br>
+                    <input type="radio" name="recommend" value="definitely"> Definitely
+                    <input type="radio" name="recommend" value="likely"> Likely
+                    <input type="radio" name="recommend" value="notsure"> Not Sure
+                </div>
+                <div id="two-col">
+                    <label id="leftlabel">Which products of Bakers&Co. do you like the best? (Check all that apply.)</label>
+                    <ul id="block">
+                        <li><input type="checkbox" name="product" value="Mpastry"> Mango-Vanilla Pastry</li>
+                        <li><input type="checkbox" name="product" value="Mpastry"> Mint-Chocolate Pastry</li>
+                        <li><input type="checkbox" name="product" value="sbread"> Spice Bread</li>
+                        <li><input type="checkbox" name="product" value="obread"> Pan Olives Bread </li>
+                        <li><input type="checkbox" name="product" value="Mcookie"> Mashmello Cookies</li>
+                        <li><input type="checkbox" name="product" value="Jcookie"> Blackberry Jam Cookies</li>
+                        <li><input type="checkbox" name="product" value="bun"> Chocolate Buns</li> 
+                        <li><input type="checkbox" name="product" value="other"> Others</li>
+                    </ul>
+                </div>
+                <div id="two-col">
+                    <label>Any suggestions for improvement?</label>
+                    <textarea name="comment" rows="5" cols="30"></textarea>
+                </div>
+                <button id="submit" type="submit">Submit</button>
+            </form>
+    </div>
+    <footer>
+        Coded by &copy; Jivansha
+    </footer>
+</body>
+</html>
