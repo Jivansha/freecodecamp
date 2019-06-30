@@ -134,6 +134,17 @@ body{
     height: 210px;
 }
 
+#buy{
+    width: 80px;
+    height: 25px;
+    font-size: 14px;
+    background: #e28413;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
 #video{
     display: block;
     margin-left: auto;
