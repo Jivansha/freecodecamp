@@ -1,0 +1,157 @@
+body{
+    background: #f7f0f5;
+    font-family: Verdana;
+    font-size: 14px;
+    color: #262724;
+}
+
+#main{
+    margin-top: 115px;
+}
+
+#header{
+    background: #202415;
+    color: #f7f0f5;
+    padding-top: 10px;
+    padding-left: 20px;
+    min-height: 30px;
+    border-bottom: #e28413 3px solid;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#header-img{
+    width: 150px;
+    height: 100px;
+}
+
+#header li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+#nav-bar{
+    float: right;
+    padding-right: 40px;
+}
+
+.nav-link{
+    color: #f7f0f5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; 
+}
+
+#contact{
+    padding: 5px;
+    color: #f7f0f5;
+    background: #515b1b;
+    width: 100%;
+    margin: auto;
+}
+
+#contact h1{
+    float: left;
+    font-size: 20px;
+}
+
+#contact form{
+    float: right;
+    margin-top: 12px;
+}
+
+#contact input[type="email"]{
+    height: 30px;
+    width: 250px;
+    border-radius: 15px;
+    border: 1px solid #828d46;
+    padding-left: 10px;
+}
+
+#submit{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: #e28413;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+#home{
+    text-align: center;
+    margin: 60px 20% 60px 20%;
+}
+
+#home h1{
+    font-size: 35px;
+}
+
+#services{
+    margin: 60px 20% 60px 20%;
+}
+
+#services h1{
+    font-size: 30px;
+}
+
+#services h2{
+    font-size: 22px;
+}
+
+#product h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#product h3{
+    font-size: 22px;
+}
+
+#flex{
+    display: flex;
+    justify-content: center;
+}
+
+#box{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+#image{
+    width: 250px;
+    height: 210px;
+}
+
+#video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+@media(min-height: 300px){
+    #video{
+      width: 300px;
+      height: 250px;
+    }
+  }
+
+footer{
+    background: #e28413;
+    color: #ffffff;
+    text-align: center;
+    padding: 7px;
+}
